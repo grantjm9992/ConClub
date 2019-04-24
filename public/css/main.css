@@ -1,0 +1,111 @@
+
+
+.menu {
+  background: #272727;
+  color: #fff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+}
+
+
+.adminBody {
+  margin-left: 220px;
+  width: calc( 100% - 220px );
+  padding: 40px;
+}
+
+
+.menu > a:hover {text-decoration: none;}
+.menu > a {
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 12px;
+  color: #ccc;
+  text-shadow: 0 1px 0px #000;
+  font-weight: 600;
+  background: #252525;
+  background: -moz-linear-gradient(top, #252525, #2d2d2d);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#2d2d2d));
+  border-bottom: 1px solid #444;
+  overflow: hidden;
+  -webkit-box-shadow: inset 0px 1px 0px #000;
+  -moz-box-shadow: inset 0px 1px 0px #000;
+  box-shadow: inset 0px 1px 0px #000;
+}
+
+
+.upload-holder
+{
+  width: calc( 100% - 40px );
+  margin: 0 20px;
+  border: 4px dashed #e1e1e1;
+  padding: 40px 25px;
+  text-align: center;
+}
+
+.upload-text {
+  margin: 0 auto;
+}
+.adminBody > h3 {
+  width: 100%;
+  padding: 0 15px 15px 15px;
+  border-bottom: 2px solid #e1e1e1;
+}
+.buttons {
+  float: right;
+}
+
+.buttons > * {
+  margin: 0 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+.cc-sortable
+{
+  border-radius: 4px;
+  background: #e1e1e1;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.sortable-title
+{
+  width: calc( 100% - 80px );
+}
+
+
+
+@media screen and ( max-width: 800px )
+{
+  .menu
+  {
+    position: unset;
+    width: 100%;
+    height: unset;
+  }
+
+  .adminBody {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .buttons {
+    float: unset;
+  }
+  .sortable-title > div {
+    overflow: hidden;
+  }
+}
