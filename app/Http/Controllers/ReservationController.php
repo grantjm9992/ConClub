@@ -35,6 +35,11 @@ class ReservationController extends BaseController
         $reservation->phone = $_REQUEST['tel'];
         $reservation->date = $date->format('Y-m-d H:i:s');
         $reservation->save();
+
+        $notification = new \App\Notifications;
+        $notification->date = $date->format('Y-m-d H:i:s');
+        $notification->save();
+
         \Mail::to( self::ADMIN )->send( new ReservationRequest( $reservation ) );
         
         return "OK";

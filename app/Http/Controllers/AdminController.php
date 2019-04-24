@@ -44,6 +44,18 @@ class AdminController extends BaseController
         return $this->RenderView();
     }
 
+    public function notificationsAction()
+    {
+        $notification = \App\Notifications::where('seen', 0)->first();
+        if ( is_object( $notification ) )
+        {
+            $notification->seen = 1;
+            $notification->save();
+            return 1;
+        }
+        return "KO";
+    }
+
     public function menuAction()
     {
         $this->botonera = view('admin/admenus');
