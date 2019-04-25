@@ -19,7 +19,7 @@ use \App\Reservations;
 class ReservationController extends BaseController
 {
     const ADMIN = array(
-        "phisoluciones.es@gmail.com"
+        "enquiries@thecondadoclub.com"
     );
 
     public function __construct() {

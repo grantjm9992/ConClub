@@ -804,6 +804,7 @@ header {
     font-weight: 500; }
     @media screen and (max-width: 768px) {
       .nav-tabs li {
+        padding: 10px 0;
         font-size: 12px; } }
     .nav-tabs li a {
       border: none !important;

@@ -120,7 +120,7 @@
 							</span>
 							<h2>Opening Times</h2>
 							<p>Monday - Sunday</p>
-							<span>10am - 12am</span>
+							<span>10am - late</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 text-center">
@@ -129,8 +129,7 @@
 								<i class="icon-mobile2"></i>
 							</span>
 							<h2>Phone</h2>
-							<p>+34 976 00 00 00</p>
-							<p>+34 976 00 00 00</p>
+							<p>+34 868 08 20 58</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 text-center">
@@ -139,7 +138,7 @@
 								<i class="icon-envelope"></i>
 							</span>
 							<h2>Email</h2>
-							<p><a href="#">info@thecondadoclub.com</a></p>
+							<p><a href="#">enquiries@thecondadoclub.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -152,7 +151,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center animate-box intro-heading">
-						<h2>Upcoming Events at the condado club</h2>
+						<h2>Upcoming Events at the Condado Club</h2>
 					</div>
 				</div>
 				<div id="events" class="row animate-box" style="margin: 0;">
@@ -188,16 +187,18 @@
 						</div>
 					</div>
 					<div class="col-md-4 animate-box">
+					<!--
 						<div class="dish-wrap">
 							<div class="wrap">
 								<div class="dish-img" style="background-image: url(images/curry.jpg);"></div>
 								<div class="desc">
 									<h2><a href="#">Curry night</a></h2>
-									<h4>Every Wednesday from 6pm</h4>
+									<h4>Every day from 6pm</h4>
 									<p><a href="#reservation" class="navLink btn btn-primary btn-lg btn-learn">Book a table</a></p>
 								</div>
 							</div>
 						</div>
+					-->
 					</div>
 					<div class="col-md-4 animate-box">
 						<div class="dish-wrap">

@@ -3,14 +3,11 @@
 			<div id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3 col-pb-sm">
+						<div class="col-md-3 col-pb-sm mx-auto">
 							<h2>The Condado Club</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Find us on social media.</p>
 							<p class="colorlib-social-icons">
-								<a href="#"><i class="icon-facebook4"></i></a>
-								<a href="#"><i class="icon-twitter3"></i></a>
-								<a href="#"><i class="icon-googleplus"></i></a>
-								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="http://facebook.com/TheCondadoClub2016/"><i class="icon-facebook4"></i></a>
 							</p>
 						</div><!--
 						<div class="col-md-3 col-pb-sm">
@@ -46,10 +43,6 @@
 								<a href="#" class="insta-img" style="background-image: url(images/dish-2.jpg);"></a>
 							</div>
 						</div>-->
-						<div class="col-md-3 col-pb-sm">
-							<h2>Lorem ipsum</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 text-center">
