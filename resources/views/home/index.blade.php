@@ -174,6 +174,7 @@
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-md-2"></div>
 					<div class="col-md-4 animate-box">
 						<div class="dish-wrap">
 							<div class="wrap">
@@ -186,8 +187,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 animate-box">
 					<!--
+					<div class="col-md-4 animate-box">
 						<div class="dish-wrap">
 							<div class="wrap">
 								<div class="dish-img" style="background-image: url(images/curry.jpg);"></div>
@@ -198,8 +199,8 @@
 								</div>
 							</div>
 						</div>
-					-->
 					</div>
+					-->
 					<div class="col-md-4 animate-box">
 						<div class="dish-wrap">
 							<div class="wrap">
@@ -212,6 +213,7 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-2"></div>
 				</div>
 			</div>
 		</div>
