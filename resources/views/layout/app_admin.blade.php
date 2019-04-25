@@ -24,7 +24,7 @@
 
         <link rel="stylesheet" href="{{ asset('css/jquery.datetimepicker.min.css')}}">
 	<link rel="stylesheet" href="{{ asset('css/main.css') }}">
-	<link href="{{ asset('http://cdn.syncfusion.com/17.1.0.38/js/web/flat-azure/ej.web.all.min.css') }}" rel="stylesheet" />
+	<link href="{{ asset('https://cdn.syncfusion.com/17.1.0.38/js/web/flat-azure/ej.web.all.min.css') }}" rel="stylesheet" />
 	<link rel="stylesheet" href="{{ asset('https://use.fontawesome.com/releases/v5.3.1/css/all.css')}}" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!-- FOR IE9 below -->
@@ -50,7 +50,7 @@
         <script src="{{ asset('/js/jquery.datetimepicker.full.min.js')}}"></script>
 	<script src="{{ asset('/js/admin.js')}}"></script>
 	<script src="{{ asset('/js/notify.min.js')}}"></script>
-	<script src="{{ asset('http://cdn.syncfusion.com/17.1.0.38/js/web/ej.web.all.min.js')}}"></script>
+	<script src="{{ asset('https://cdn.syncfusion.com/17.1.0.38/js/web/ej.web.all.min.js')}}"></script>
 	<script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/themes/fas/theme.min.js') }}"></script>
 
 	<script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/js/fileinput.min.js') }}"></script>
