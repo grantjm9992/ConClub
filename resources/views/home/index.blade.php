@@ -372,7 +372,7 @@
 											<div class="form-group">
 												<label for="name">Full name</label>
 												<div class="form-field">
-													<input type="text" class="form-control" name="name" placeholder="name">
+													<input type="text" class="form-control" name="name" placeholder="name" required>
 												</div>
 											</div>
 										</div>
@@ -380,7 +380,7 @@
 											<div class="form-group">
 												<label for="email">Email</label>
 												<div class="form-field">
-													<input type="text" class="form-control" id="email" name="email" placeholder="email">
+													<input type="text" class="form-control" id="email" name="email" placeholder="email" required>
 												</div>
 											</div>
 										</div>
@@ -388,7 +388,7 @@
 											<div class="form-group">
 												<label for="phone">Phone</label>
 												<div class="form-field">
-													<input type="text" class="form-control" name="tel" placeholder="phone">
+													<input type="text" class="form-control" name="tel" placeholder="phone" required>
 												</div>
 											</div>
 										</div>
@@ -397,7 +397,7 @@
 												<label for="date">Date:</label>
 												<div class="form-field">
 													<i class="icon icon-calendar2"></i>
-													<input type="text" id="date" autocomplete="off" name="date" class="form-control date" placeholder="Date">
+													<input type="text" id="date" autocomplete="off" name="date" class="form-control date" placeholder="Date" required>
 												</div>
 											</div>
 										</div>
