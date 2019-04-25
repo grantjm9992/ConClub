@@ -73,7 +73,7 @@
 				   			</div>
 				   		</div>
 			   		</div>
-			   	</li>
+			   	</li><!--
 			   	<li style="background-image: url(images/cocktail.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
@@ -91,7 +91,7 @@
 				   			</div>
 				   		</div>
 			   		</div>
-			   	</li>
+			   	</li>-->
 			  	</ul>
 			  	<div class="mouse">
 				   <a href="#" class="mouse-icon">
