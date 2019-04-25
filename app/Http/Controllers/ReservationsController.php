@@ -32,7 +32,7 @@ class ReservationsController extends Controller
     {
         $reservations = "";//$this->createSchedule( "App\Http\Controllers\ReservationsController", "dataAction" );
 
-        $this->botonera = "<a class='btn btn-primary' href='Reservations.admin'><i class='fas fa-plus'></i> Admin</a>";
+        $this->botonera = "<a class='btn btn-primary' href='Reservations.admin'><i class='fas fa-cogs'></i> Admin</a>";
         $this->pageTitle = "Reservations";
         $this->iconClass = "fa-calendar";
         $this->cont->body = view('reservations/index', array(
