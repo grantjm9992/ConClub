@@ -13,7 +13,9 @@ $(function() {
     var dataManager = new ej.DataManager("Reservations.data");
     $("#schedule").ejSchedule({
         width: "100%",
+        readOnly: true,
         height: "600px",
+        views: ['day', 'agenda'],
         currentDate: new Date(),
         currentView: ej.Schedule.CurrentView.Agenda,
         appointmentSettings: {
