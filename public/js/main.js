@@ -188,7 +188,6 @@
 
 	var datePicker = function() {
 		jQuery('.date').datepicker({
-		  'format': 'm/d/yyyy',
 		  'autoclose': true
 		});
 	};
