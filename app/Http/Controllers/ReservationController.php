@@ -21,13 +21,14 @@ class ReservationController extends BaseController
     const ADMIN = array(
         "thesimo@hotmail.co.uk",
         "lynn.simo@yahoo.co.uk",
-        "paulandrachel2010@hotmail.com"
+        "paulandrachel2010@hotmail.com",
+        "thecondadoclub2019@gmail.com"
     );
 
     public function __construct() {
         parent::__construct();
     }
-    
+
     public function makeAction() {
         $date = new \DateTime($_REQUEST['date']." ".$_REQUEST['time']);
         $reservation = new Reservations;
